@@ -4,14 +4,11 @@
 let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
-let addresses = [
-	'cloudflare.cfgo.cc:205#优选IP',
+let addresses = [	
 	'skk.moe:443#优选IP',
 	'cf.090227.xyz#优选IP',
-	'cfip.xooooooxx.tk#优选IP',
 	'icook.hk:8443#优选IP，香港',
 	'icook.tw#优选IP，台湾',
-	'icook.jp#优选IP，日本',
 ];
 
 // 设置优选地址api接口
