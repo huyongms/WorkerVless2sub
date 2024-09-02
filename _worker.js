@@ -103,7 +103,7 @@ async function getAddressesapi(api) {
 
 	const timeout = setTimeout(() => {
 		controller.abort(); // 取消所有请求
-	}, 5000); // 5秒后触发
+	}, 2000); // 2秒后触发
 
 	try {
 		// 使用Promise.allSettled等待所有API请求完成，无论成功或失败
